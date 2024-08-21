@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .leftDiv
+        {
+            background-color: rgb(230, 235, 234);
+            width: 20%;
+            height: 560px;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .rightDiv{
+            background-color: rgb(98, 58, 58);
+            width: 80%;
+            height: 560px;
+            margin-right: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .ldimg{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .blue-text {
+            color: blue;
+            padding-left: 40px;
+            
+            
+        }
+        .black-text {
+            color: black;
+        }
+        .leftDiv ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+            text-align: left;
+            
+        }
+        .leftDiv ul li {
+            margin-bottom: 10px;
+            height: 10px;
+            text-align: center;
+        }
+        .leftDiv ul li a {
+            text-decoration: none;
+            color: rgba(11, 5, 5, 0.7);
+            font-size: 9px;
+            font-weight: bold;
+        }
+        .leftDiv ul li a:hover {
+            color: #1e73be;
+        }
+        .leftDiv p.template-info {
+            font-size:10px;
+            color: #888;
+            padding-left: 20px;
+            text-align: center;
+
+        }
+        .leftDiv p.template-info a {
+            color: #1e73be;
+            text-decoration: none;
+        }
+
+        .rightDiv img{
+           width: 39%;
+           padding-left: 49%;
+           height: 560px;
+           background-image: url('your-image-url.png');
+        }
+        .rightDiv h1{
+            display: inline-block;
+        }
+        
+
+    </style>
+</head>
+<body >
+    <div style="display: flex;">   
+        <div class="leftDiv">
+            <img class="ldimg" src="/2019-09-10 Mitch Bridgeforth web IMGL9694.jpg" alt="">
+            <h2 style="margin-left:45px;" >Jackson Ford</h2>
+            <h6 style=" margin-top:0px;">
+                <span class="blue-text">UI/UX/DESIGNER</span>
+                <span class="black-text">PHILIPPINES</span>
+            </h6>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">EDUCATION</a></li>
+                <li><a href="#">EXPERIENCE</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <p style="color: rgba(98, 58, 58,0.5); font-size: 12px; margin-left: 30px;">&copy; Copyright 2018 All rights reserved</p>
+            <p class="template-info">This template is made with <span class="heart-icon">❤</span> by <a style="text-decoration: none;" href="#">Colorlib</a><br> Demo Images: <a style="text-decoration: none;" href="#">Unsplash.com</a></p>
+        </div>
+        <div style="display: flex;" class=" rightDiv">
+            <h1>I am a Designer</h1>
+            
+            <img style="background-size: cover;" src="/1859546-800w.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
